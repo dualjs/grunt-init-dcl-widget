@@ -7,13 +7,12 @@
  */
 
 var D = require('dual');
-var Widget = require('dcl-widget');
 //{% if (bootstrap) { %}
 require('dcl-bootstrap');
 //{% } %}
 
 
-module.exports = Widget.extend({
+module.exports = D.Widget.extend({
     ATTRS: {
         caption: {
             textAsset: 'root'

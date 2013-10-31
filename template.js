@@ -40,8 +40,7 @@ exports.template = function(grunt, init, done) {
         props.bootstrap = (props.bootstrap === 'y');
 
         props.dependencies = {
-            "dual": "*",
-            "dcl-widget": "*"
+            "dual": "*"
         };
 
         props.devDependencies = {
