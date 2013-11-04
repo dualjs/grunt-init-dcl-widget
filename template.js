@@ -50,7 +50,7 @@ exports.template = function(grunt, init, done) {
             "grunt-contrib-watch": "~0.4.0",
             "grunt-dcl-resources": "0.0.1",
             "browserify": "~2.x",
-            "grunt-browserify": "~1.2.11",
+            "grunt-browserify": "1.2.11",
             "grunt-contrib-less": "~0.7.0",
             "grunt-contrib-copy": "~0.4.1",
             "grunt-contrib-clean": "~0.5.0"
